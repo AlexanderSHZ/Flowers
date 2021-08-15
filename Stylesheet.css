@@ -20,7 +20,7 @@ footer {
 	background: none;
 	width: 1165px;
 	height: 50px;
-	float: left;
+	float: m;
 	margin: 2px;
 }
 
@@ -38,12 +38,9 @@ h1 {
 	
 }
 
-
-/*.bar {
-	background: #111;
-	width: 100px;
-	height: auto;
-	float: right;
-	margin: 10px;
+#search{
+	float:right;
+	margin-right: 30px;
+	margin-top: 40px;
 }
-	*/
+
