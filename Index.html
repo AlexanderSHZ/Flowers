@@ -23,11 +23,11 @@
         <div id="headerbtns">
             <table border="0" cellspacing="0">
                 <tr>
-                    <td><input class="but" type="button" value="Home"></td>
-                    <td><input class="but" type="button" value="News and promotions"></td>
-                    <td><input class="but" type="button" value="Plants"></td>
-                    <td><input class="but" type="button" value="Fertilizers"></td>
-                    <td><input class="but" type="button" value="Contacts"></td>
+                    <td><form action="index.html"><button>Home</button></form></td>
+                    <td><form action="n&p.html"><button>News and promotions</button></form></td>
+                    <td><form action="plants.html"><button>Plants</button></form></td>
+                    <td><form action="fertilizers.html"><button>Fertilizers</button></form></td>
+                    <td><form action="contacts.html"><button>Contacts</button></form></td>
                 </tr>
 
             </table>
@@ -40,7 +40,7 @@
        
 
     
-    <div id="FlowerTypes">
+    <div id="flowertypes">
 
         <h2>Plants categories</h2>
 
@@ -67,7 +67,7 @@
         </p>
     </div>
 
-    <div id="Categories">
+    <div id="categories">
         <h2>Categories</h2>
         <ul>
             <li>Fusce a iaculis dolor</li>
@@ -83,13 +83,24 @@
         </ul>
     </div>
 
-    <div id="Promotion">
+    <div id="promotion">
         <h2>Summer HOT promotion</h2>
-        <a href="promo.html"><img src="imgs/promo.jpg"></a>
-
+        <p>
+            <a href="promo.html"><img src="imgs/promo.jpg" alt="Promotion" class="promoimg"></a>
+            Vivamus elit nisi, luctus at elit et, ultricies dignissim lectus. Nullam fringilla sed eros ut rhoncus. Etiam aliquet ligula vel malesuada pellentesque. Morbi finibus laoreet velit, in venenatis velit auctor vitae. Vestibulum quam libero, bibendum quis efficitur vel, lacinia in arcu. Vivamus pellentesque est porttitor augue ultricies sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae dui augue. Suspendisse suscipit, lectus id blandit pretium, dolor mi pretium lorem, eget molestie purus enim at neque. Donec eu ante turpis. Duis eros leo, mollis imperdiet faucibus eget, tempor sit amet nibh. In velit lacus, semper quis dignissim et, porta ac augue. Cras quis sagittis lacus. Fusce aliquam porta orci, vitae eleifend dolor pulvinar pulvinar. Nunc vulputate ultricies velit id feugiat.
+        </p>
     </div>
 
-    <div>
+    <div id="newsletter">
+        <h2>Newsletter</h2>
+
+        <div id="newsletterboard">
+                <label for="site-search"> Please enter your email adress to subscribe our newsletter.</label></br>
+                <input type="text" id="subscribe" name="email" aria-label="example@exmpl.com">
+                <button>Subscribe</button>
+        </div>
+
+        
 
 
     </div>

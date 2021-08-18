@@ -1,27 +1,28 @@
-#header {
-	background: url(imgs/footer1.jpg) no-repeat left top;
+body {
+	border: 50px solid #7ba05b;
+	
+}
 
+#header {
+	background: url(imgs/footer1.jpg) repeat-x center top;
 	height: 300px;
 	width: 100%;
 	margin: 0;
 }
 
-body {
-	background: #7ba05b;
-}
-
-footer {
-	height: 200px;
-	background: url(imgs/footer.jpg) repeat-x none bottom;
-}
-
-
 #headerbtns {
 	background: none;
-	width: 1165px;
+	width: inherit;
 	height: 50px;
-	float: m;
-	margin: 2px;
+	float:inherit;
+	margin: 2px 8px;
+}
+
+#search {
+	float: right;
+	margin-right: 30px;
+	margin-top: 40px;
+	color: #ffd700;
 }
 
 .but {
@@ -43,14 +44,32 @@ h2 {
 	
 }
 
-#search {
-	float: right;
-	margin-right: 30px;
-	margin-top: 40px;
-	color: #ffd700;
-}
-
 #flowertypes {
+	width:900px;
+	margin:30px;
+	float:left;
 	
 }
 
+#categories {
+	width: 300px;
+	margin: 30px;
+	float:right;
+}
+
+#promotion {
+	width: 900px;
+	margin: 30px;
+	float: left;
+}
+
+.promoimg {
+	float: left;
+	margin: 7px;
+}
+
+#newsletter {
+	width: 300px;
+	margin: 30px;
+	float: right;
+}
